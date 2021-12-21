@@ -3,8 +3,8 @@
 Go implementation of traceroute.
 
 [![Build Status](https://api.travis-ci.org/pixelbender/go-traceroute.svg)](https://travis-ci.org/pixelbender/go-traceroute)
-[![Go Report Card](https://goreportcard.com/badge/github.com/pixelbender/go-traceroute)](https://goreportcard.com/report/github.com/pixelbender/go-traceroute)
-[![GoDoc](https://godoc.org/github.com/pixelbender/go-traceroute?status.svg)](https://godoc.org/github.com/pixelbender/go-traceroute/traceroute)
+[![Go Report Card](https://goreportcard.com/badge/github.com/lishouzheng/go-traceroute)](https://goreportcard.com/report/github.com/lishouzheng/go-traceroute)
+[![GoDoc](https://godoc.org/github.com/lishouzheng/go-traceroute?status.svg)](https://godoc.org/github.com/lishouzheng/go-traceroute/traceroute)
 
 ## Features
 
@@ -17,7 +17,7 @@ Go implementation of traceroute.
 ## Installation
 
 ```sh
-go get github.com/pixelbender/go-traceroute/...
+go get github.com/lishouzheng/go-traceroute/...
 ```
 
 ## Simple tracing
@@ -26,7 +26,7 @@ go get github.com/pixelbender/go-traceroute/...
 package main
 
 import (
-	"github.com/pixelbender/go-traceroute/traceroute"
+	"github.com/lishouzheng/go-traceroute/traceroute"
 	"log"
 )
 
@@ -49,7 +49,7 @@ func main() {
 package main
 
 import (
-	"github.com/pixelbender/go-traceroute/traceroute"
+	"github.com/lishouzheng/go-traceroute/traceroute"
 	"context"
 	"log"
 	"net"

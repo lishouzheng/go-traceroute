@@ -2,10 +2,11 @@ package traceroute_test
 
 import (
 	"context"
-	"github.com/pixelbender/go-traceroute/traceroute"
 	"net"
 	"testing"
 	"time"
+
+	"github.com/lishouzheng/go-traceroute/traceroute"
 )
 
 func TestTraceReply(t *testing.T) {
